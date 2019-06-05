@@ -44,4 +44,8 @@
         <appender-ref ref="TOMCAT" />
         <appender-ref ref="STDOUT" />
     </logger>
+
+    <logger name="com.lambdaschool" level="TRACE">
+        <appender-ref ref="STDOUT" />
+    </logger>
 </configuration>
